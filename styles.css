@@ -1,0 +1,86 @@
+/* Estilo base */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Sección de portafolio */
+.portfolio {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.portfolio h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.portfolio p {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-link {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-link:hover {
+  background-color: #218838;
+}
+
+/* Pie de página */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
